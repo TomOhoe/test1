@@ -1,0 +1,91 @@
+h1{
+    font-family: 'Gabarito', cursive;
+
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+.header_down{
+    background-color: #f9f9f9;
+    display: flex;
+}
+.logo_head{
+
+    width: 52px;
+    height: 52px;
+}
+.h2_head{
+    font-size:12px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 3px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #4d4d4d;
+    display: block;
+    transition: .5s;
+}
+
+
+
+.sidenav a:hover {
+    color: #137285;
+}
+.col-height{
+    height: 50%;
+}
+.mid-inf{
+    padding: 30px;
+}
+.gallery{
+    display: block;
+}
+.img-class{
+    margin-top: 10px;
+    width:35%;
+    height: 50%;
+    float:right;
+    margin-left: 10px;
+}
+.img-class1{
+    margin-top:10px;
+    width:35%;
+    height: 50%;
+    float:left;
+    margin-right: 50px;
+}
+.img-class figcaption {
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+.img_doub{
+    width:40%;
+    height: 40%;
+    margin-right: 20px;
+    float: right;
+}
+body{
+    margin-left: 160px;
+}
+
+@media screen and (max-width: 600px) {
+    .sidenav{width: 100px;}
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 15px;padding: 3px 8px 6px 5px;}
+}
